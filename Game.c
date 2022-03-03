@@ -55,7 +55,8 @@ void mainGame(){
 }
 int main(){
 	while(1){
-    printf("\n");
+    		printf("\n");
 		mainGame();
 	}
+	return 0;
 }
