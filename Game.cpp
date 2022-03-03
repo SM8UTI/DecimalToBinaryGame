@@ -37,6 +37,7 @@ void loseGame(int n){
 		cout<<endl;
 	}
 	cout<<"Game Over!";
+	cout<<"\nCorrect Binary number : " <<decimalToBinary(n);
 }
 
 void mainGame(){
@@ -55,6 +56,7 @@ void mainGame(){
 }
 int main(){
 	while(1){
+		cout<<endl;
 		mainGame();
 	}
 }
