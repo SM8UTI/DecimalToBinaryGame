@@ -59,4 +59,5 @@ int main(){
 		cout<<endl;
 		mainGame();
 	}
+	return 0;
 }
